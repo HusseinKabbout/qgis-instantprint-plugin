@@ -8,11 +8,9 @@
 #    copyright            : (C) 2014-2015 by Sandro Mani / Sourcepole AG
 #    email                : smani@sourcepole.ch
 
-from qgis.core import Qgis
 from PyQt5.QtCore import QObject, QSettings, QTranslator, QCoreApplication
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QToolButton
-from qgis.gui import QgisInterface
 import os
 from .InstantPrintTool import InstantPrintTool
 from . import resources_rc

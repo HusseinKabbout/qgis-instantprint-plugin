@@ -12,8 +12,8 @@ from PyQt5.QtCore import Qt, QSettings, QPointF, QRectF, QRect, QUrl, pyqtSignal
 from PyQt5.QtGui import QColor, QDesktopServices, QIcon
 from PyQt5.QtWidgets import QDialog, QDialogButtonBox, QMessageBox, QFileDialog
 from PyQt5.QtPrintSupport import QPrintDialog, QPrinter
-from qgis.core import QgsRectangle, QgsLayoutManager, QgsPointXY as QgsPoint, Qgis, QgsProject, QgsWkbTypes, QgsLayoutExporter, PROJECT_SCALES, QgsLayoutItemMap
-from qgis.gui import QgisInterface, QgsMapTool, QgsRubberBand
+from qgis.core import QgsRectangle, QgsPointXY as QgsPoint, QgsProject, QgsWkbTypes, QgsLayoutExporter, PROJECT_SCALES, QgsLayoutItemMap
+from qgis.gui import QgsMapTool, QgsRubberBand
 import os
 from .ui.ui_printdialog import Ui_InstantPrintDialog
 
